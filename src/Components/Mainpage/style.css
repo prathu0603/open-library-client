@@ -1,0 +1,14 @@
+.books-wraper {
+  background-color: #1144eb;
+  padding-top: 1rem;
+}
+.select {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50rem;
+}
+.cards-wraper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

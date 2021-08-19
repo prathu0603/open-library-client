@@ -1,0 +1,87 @@
+.project-card {
+  height: 18rem;
+  width: 32rem;
+  margin: 1rem;
+  background-color: aliceblue;
+  display: flex;
+  height: 18rem;
+  width: 32rem;
+  border-radius: 7px 7px 7px 7px;
+  font-family: "Playfair Display", serif;
+  border: 2px solid black;
+}
+.product-img img {
+  border-radius: 7px 0 0 7px;
+  height: 17.9rem;
+  width: 12rem;
+}
+.product-info {
+  flex: 1;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #feffc8;
+}
+.product-text {
+  flex: 0.8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0px;
+  color: #000000;
+}
+.catergory {
+  font-size: 0.813rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #20ec6e;
+  letter-spacing: 0.2em;
+}
+.desc-box {
+  padding-right: 0.2rem;
+}
+.desc {
+  font-family: "Playfair Display", serif;
+  color: #f53939;
+  line-height: 1.7em;
+  font-size: 0.938rem;
+  font-weight: lighter;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.product-price-btn {
+  flex: 0.2;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Suranna", serif;
+  font-weight: lighter;
+  color: #e9771b;
+  font-size: 1.7rem;
+}
+
+.card-btn {
+  height: 3.125rem;
+  width: 8rem;
+  box-sizing: border-box;
+  border: transparent;
+  border-radius: 0.5rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color: #43e7b9;
+  cursor: pointer;
+  outline: none;
+}
+.card-btn:hover {
+  background-color: #1c6854;
+  color: black;
+}

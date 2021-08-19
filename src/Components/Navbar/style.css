@@ -1,0 +1,32 @@
+.logo {
+  height: 2.1rem;
+  width: 6rem;
+}
+.main-nav {
+  width: 100vw;
+  height: 3rem;
+  padding: 0.7rem 10rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(223, 204, 37);
+}
+.menu-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-nav ul {
+  list-style: none;
+}
+.main-nav ul li a {
+  list-style: none;
+  text-decoration: none;
+  margin: 00.25rem 1rem;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 0.4rem;
+}
+.main-nav ul li a:hover {
+  color: rgb(252, 2, 2);
+  border-bottom: 2px solid black;
+}
